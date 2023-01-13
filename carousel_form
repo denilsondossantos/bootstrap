@@ -30,7 +30,6 @@
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div-->
           <!--button type="submit" class="btn btn-primary">Submit</button-->
-        </form>
         </div>
         </div>
         <!--div class="carousel-item">
@@ -39,15 +38,14 @@
 
         <div class="container-sm">
           <div class="carousel-item">
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Nome</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Nome">
+              <label for="floatingInput">Nome</label>
             </div>
-  
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Sobrenome</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div> 
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingPassword" placeholder="Sobrenome">
+              <label for="floatingInput">Sobrenome</label>
+            </div>
           </div>
         </div>
 
